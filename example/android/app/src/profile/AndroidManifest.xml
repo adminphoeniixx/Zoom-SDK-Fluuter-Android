@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.phoeniixx.custom_zoom_sdk_example">
+    package="com.phoeniixx.android_custom_zoom_sdk_example">
     <!-- Flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
     -->

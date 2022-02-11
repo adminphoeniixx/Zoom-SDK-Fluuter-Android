@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "android_custom_zoom_sdk",
+      "rootUri": "../../",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "async",
       "rootUri": "file:///home/jarves/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2",
       "packageUri": "lib/",
@@ -40,12 +46,6 @@
     {
       "name": "cupertino_icons",
       "rootUri": "file:///home/jarves/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "custom_zoom_sdk",
-      "rootUri": "../../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -146,13 +146,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "custom_zoom_sdk_example",
+      "name": "android_custom_zoom_sdk_example",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-02-10T10:30:39.262175Z",
+  "generated": "2022-02-11T09:47:44.828087Z",
   "generator": "pub",
   "generatorVersion": "2.16.0"
 }

@@ -1,9 +1,8 @@
 import 'dart:async';
 
-import 'package:custom_zoom_sdk_example/meeting_screen.dart';
-import 'package:custom_zoom_sdk_example/start_meeting_screen.dart';
+import 'package:android_custom_zoom_sdk_example/meeting_screen.dart';
+import 'package:android_custom_zoom_sdk_example/start_meeting_screen.dart';
 import 'package:flutter/material.dart';
-
 
 class JoinWidget extends StatefulWidget {
   @override
@@ -11,9 +10,8 @@ class JoinWidget extends StatefulWidget {
 }
 
 class _JoinWidgetState extends State<JoinWidget> {
-
-  late TextEditingController meetingIdController ;
- late TextEditingController meetingPasswordController;
+  late TextEditingController meetingIdController;
+  late TextEditingController meetingPasswordController;
   @override
   void initState() {
     meetingIdController = TextEditingController();
@@ -61,7 +59,6 @@ class _JoinWidgetState extends State<JoinWidget> {
                       // If onPressed is null, the button is disabled
                       // this is my goto temporary callback.
                       onPressed: () {
-
                         joinMeeting(context);
                       },
                       child: Text('Join'),
@@ -90,12 +87,13 @@ class _JoinWidgetState extends State<JoinWidget> {
     );
   }
 
-
   joinMeeting(BuildContext context) {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (context) {
-          return MeetingWidget(meetingId: meetingIdController.text, meetingPassword: meetingPasswordController.text);
+          return MeetingWidget(
+              meetingId: meetingIdController.text,
+              meetingPassword: meetingPasswordController.text);
         },
       ),
     );

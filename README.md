@@ -1,4 +1,4 @@
-# custom_zoom_sdk
+# android_custom_zoom_sdk
 
 A new Flutter plugin for Zoom SDK.
 

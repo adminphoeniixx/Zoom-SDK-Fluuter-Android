@@ -1,4 +1,4 @@
-package com.phoeniixx.custom_zoom_sdk;
+package com.phoeniixx.android_custom_zoom_sdk;
 
 import java.util.Arrays;
 import java.util.List;

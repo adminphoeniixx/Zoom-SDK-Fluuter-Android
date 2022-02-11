@@ -1,4 +1,4 @@
-group 'com.phoeniixx.custom_zoom_sdk'
+group 'com.phoeniixx.android_custom_zoom_sdk'
 version '1.0'
 
 buildscript {
@@ -18,7 +18,7 @@ rootProject.allprojects {
         jcenter()
 
         flatDir {
-            dirs project(':custom_zoom_sdk').file('libs')
+            dirs project(':android_custom_zoom_sdk').file('libs')
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.phoeniixx.custom_zoom_sdk;
+package com.phoeniixx.android_custom_zoom_sdk;
 
 import android.app.Activity;
 import android.content.Context;
@@ -64,7 +64,7 @@ public class ZoomView  implements PlatformView,
         textView = new TextView(context);
         this.context = context;
 
-      methodChannel = new MethodChannel(messenger, "custom_zoom_sdk");
+      methodChannel = new MethodChannel(messenger, "android_custom_zoom_sdk");
         methodChannel.setMethodCallHandler(this);
 
         meetingStatusChannel = new EventChannel(messenger, "custom_zoom_event");

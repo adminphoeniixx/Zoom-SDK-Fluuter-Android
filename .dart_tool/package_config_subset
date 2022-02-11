@@ -1,7 +1,7 @@
-custom_zoom_sdk
+android_custom_zoom_sdk
 2.12
-file:///home/jarves/Documents/custom_zoom_sdk-0.2.4/
-file:///home/jarves/Documents/custom_zoom_sdk-0.2.4/lib/
+file:///home/jarves/Documents/android_custom_zoom_sdk-0.2.4/
+file:///home/jarves/Documents/android_custom_zoom_sdk-0.2.4/lib/
 async
 2.12
 file:///home/jarves/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2/

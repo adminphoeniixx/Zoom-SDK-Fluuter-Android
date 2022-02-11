@@ -20,7 +20,7 @@ public final class GeneratedPluginRegistrant {
     try {
       com.phoeniixx.custom_zoom_sdk.CustomZoomSdkPlugin.registerWith(shimPluginRegistry.registrarFor("com.phoeniixx.custom_zoom_sdk.CustomZoomSdkPlugin"));
     } catch(Exception e) {
-      Log.e(TAG, "Error registering plugin custom_zoom_sdk, com.phoeniixx.custom_zoom_sdk.CustomZoomSdkPlugin", e);
+      Log.e(TAG, "Error registering plugin android_custom_zoom_sdk, com.phoeniixx.custom_zoom_sdk.CustomZoomSdkPlugin", e);
     }
   }
 }
