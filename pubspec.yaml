@@ -1,7 +1,7 @@
-name: custom_zoom_sdk
+name: ios_custom_zoom_sdk
 description: A new Flutter plugin for zoom customization.
 version: 0.2.4
-homepage: https://github.com/CoolBoe/custom_zoom_sdk
+homepage: https://github.com/adminphoeniixx/Zoom-SDK-Flutter-IOS
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter
+    sdk: flutter+
   
 
 dev_dependencies:
