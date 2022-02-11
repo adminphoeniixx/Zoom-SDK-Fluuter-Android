@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
 #
 Pod::Spec.new do |s|
-  s.name             = 'custom_zoom_sdk'
+  s.name             = 'ios_custom_zoom_sdk'
   s.version          = '0.0.1'
   s.summary          = 'A new Flutter plugin for zoom customization.'
   s.description      = <<-DESC

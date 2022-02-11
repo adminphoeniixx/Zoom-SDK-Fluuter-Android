@@ -1,7 +1,8 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
+
 void main() {
-  const MethodChannel channel = MethodChannel('custom_zoom_sdk');
+  const MethodChannel channel = MethodChannel('ios_custom_zoom_sdk');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -14,5 +15,4 @@ void main() {
   tearDown(() {
     channel.setMockMethodCallHandler(null);
   });
-
 }

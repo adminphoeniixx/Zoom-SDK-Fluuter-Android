@@ -6,10 +6,10 @@
 
 #import "GeneratedPluginRegistrant.h"
 
-#if __has_include(<custom_zoom_sdk/CustomZoomSdkPlugin.h>)
-#import <custom_zoom_sdk/CustomZoomSdkPlugin.h>
+#if __has_include(<ios_custom_zoom_sdk/CustomZoomSdkPlugin.h>)
+#import <ios_custom_zoom_sdk/CustomZoomSdkPlugin.h>
 #else
-@import custom_zoom_sdk;
+@import ios_custom_zoom_sdk;
 #endif
 
 @implementation GeneratedPluginRegistrant

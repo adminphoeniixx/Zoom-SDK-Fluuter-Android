@@ -38,18 +38,18 @@ class _CustomZoomViewState extends State<CustomZoomView> {
     print("platformView:- $defaultTargetPlatform");
     if (defaultTargetPlatform == TargetPlatform.android) {
       return AndroidView(
-        viewType: 'custom_zoom_sdk',
+        viewType: 'ios_custom_zoom_sdk',
         onPlatformViewCreated: _onPlatformViewCreated,
       );
     }
     if (defaultTargetPlatform == TargetPlatform.iOS) {
       return UiKitView(
-        viewType: 'custom_zoom_sdk',
+        viewType: 'ios_custom_zoom_sdk',
         onPlatformViewCreated: _onPlatformViewCreated,
       );
     }
     return Text(
-        '$defaultTargetPlatform is not yet supported by the custom_zoom_sdk plugin');
+        '$defaultTargetPlatform is not yet supported by the ios_custom_zoom_sdk plugin');
   }
 
   void _onPlatformViewCreated(int id) {
@@ -64,7 +64,7 @@ class _CustomZoomViewState extends State<CustomZoomView> {
 
 class ZoomViewController {
   ZoomViewController._(int id)
-      : _methodChannel = new MethodChannel('custom_zoom_sdk'),
+      : _methodChannel = new MethodChannel('ios_custom_zoom_sdk'),
         _zoomStatusEventChannel = new EventChannel("custom_zoom_event");
 
   final MethodChannel _methodChannel;

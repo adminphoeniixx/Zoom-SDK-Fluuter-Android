@@ -1,6 +1,6 @@
-# custom_zoom_sdk_example
+# ios_custom_zoom_sdk_example
 
-Demonstrates how to use the custom_zoom_sdk plugin.
+Demonstrates how to use the ios_custom_zoom_sdk plugin.
 
 ## Getting Started
 

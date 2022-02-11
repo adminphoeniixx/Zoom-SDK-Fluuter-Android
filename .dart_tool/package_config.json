@@ -134,13 +134,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "custom_zoom_sdk",
+      "name": "ios_custom_zoom_sdk",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-02-10T10:30:31.899437Z",
+  "generated": "2022-02-11T11:12:47.250667Z",
   "generator": "pub",
   "generatorVersion": "2.16.0"
 }

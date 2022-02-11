@@ -6,7 +6,7 @@ public class CustomZoomSdk: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
 
         let factory = ZoomViewFactory(messenger: registrar.messenger())
-        registrar.register(factory, withId: "custom_zoom_sdk")
+        registrar.register(factory, withId: "ios_custom_zoom_sdk")
     }
 }
 
@@ -181,7 +181,7 @@ public class ZoomView: NSObject, FlutterPlatformView, MobileRTCMeetingServiceDel
     init(_ frame: CGRect, viewId: Int64, messenger: (NSObjectProtocol & FlutterBinaryMessenger)?, args: Any?) {
         self.frame = frame
         self.viewId = viewId
-        self.channel = FlutterMethodChannel(name: "custom_zoom_sdk", binaryMessenger: messenger!)
+        self.channel = FlutterMethodChannel(name: "ios_custom_zoom_sdk", binaryMessenger: messenger!)
         self.authenticationDelegate = AuthenticationDelegate()
         self.statusEventChannel = FlutterEventChannel(name: "custom_zoom_event", binaryMessenger: messenger!)
 
